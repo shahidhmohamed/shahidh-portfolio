@@ -1,5 +1,4 @@
 import React, { useCallback } from "react";
-import { Container, Engine } from "tsparticles-engine";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 
