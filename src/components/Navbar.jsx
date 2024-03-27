@@ -3,7 +3,7 @@ import { Link as LinkR } from "react-router-dom";
 import styled, { useTheme } from "styled-components";
 import { Bio } from "../data/constants";
 import { MenuRounded } from "@mui/icons-material";
-import Particle from "../components/HeroBgAnimation"
+import Particle from "../components/HeroBgAnimation";
 
 const Nav = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -94,7 +94,7 @@ const GithubButton = styled.a`
   text-decoration: none;
   &:hover {
     background: ${({ theme }) => theme.primary};
-    color: ${({ theme }) => theme.text_primary};
+    color: black;
   }
 `;
 

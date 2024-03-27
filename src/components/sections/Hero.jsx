@@ -135,31 +135,50 @@ const ResumeButton = styled.a`
   text-align: center;
   padding: 16px 0;
 
-  background: hsl(39, 100%, 50%);
+  background: hsl(54, 100%, 50%);
   background: linear-gradient(
     225deg,
-    hsla(29, 100%, 50%) 0%,
-    hsla(29, 100%, 50%) 100%
+    hsla(54, 100%, 50%) 0%,
+    hsla(54, 100%, 50%) 100%
   );
   background: -moz-linear-gradient(
     225deg,
-    hsla(29, 100%, 50%) 0%,
-    hsla(29, 100%, 50%) 100%
+    hsla(54, 100%, 50%) 0%,
+    hsla(54, 100%, 50%) 100%
   );
   background: -webkit-linear-gradient(
     225deg,
-    hsla(29, 100%, 50%) 0%,
-    hsla(29, 100%, 50%) 100%
+    hsla(54, 100%, 50%) 0%,
+    hsla(54, 100%, 50%) 100%
   );
   border-radius: 50px;
   font-weight: 600;
   font-size: 20px;
+  color: black;
 
      &:hover {
         transform: scale(1.05);
+        color: black;
     transition: all 0.4s ease-in-out;
     box-shadow:  20px 20px 60px #1F2634,
     filter: brightness(1);
+    background: hsl(54, 100%, 50%);
+  background: linear-gradient(
+    225deg,
+    hsla(0, 100%, 100%) 0%,
+    hsla(0, 100%, 100%) 100%
+  );
+  background: -moz-linear-gradient(
+    225deg,
+    hsla(0, 100%, 100%) 0%,
+    hsla(0, 100%, 100%) 100%
+  );
+  background: -webkit-linear-gradient(
+    225deg,
+    hsla(0, 100%, 100%) 0%,
+    hsla(0, 100%, 100%) 100%
+  );
+    
     }    
     
     
@@ -176,7 +195,6 @@ const Img = styled.img`
   height: 100%;
   max-width: 400px;
   max-height: 400px;
-  border: 2px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 640px) {
     max-width: 280px;

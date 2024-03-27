@@ -276,9 +276,30 @@ export const experiences = [
   {
     id: 0,
     img: "https://scontent.fcmb6-1.fna.fbcdn.net/v/t39.30808-6/302077251_451540643695797_3979085567720776944_n.png?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=KXVWt3rKWSgAX-ddY6b&_nc_oc=AdgP3uNcEg7Dq9tFakVcED8EDBgt6bxMs0IapXSGd1haZk91k4ky6B-6UwLu2LOrgRw&_nc_zt=23&_nc_ht=scontent.fcmb6-1.fna&oh=00_AfCD8eUXd197xdlxEK1D0PhiLKNWEigMM_ybUn0KnQJawA&oe=6607E050",
-    role: "Traine Software Developer",
+    role: "Junior Software Developer",
     company: "Levant Business Experts",
-    date: "Aug 2023 - Present",
+    date: "Feb 2024 - Present",
+    desc: "Enhanced user experiences for Odoo developer add-on buildings by addressing bugs and improving load times by 40%. Developed the Neurobit Analytics portal using React.js, ensuring smooth integration with REST APIs via AXIOS and optimizing performance with React Query. Refactored previous codebase to TypeScript, integrated new dependencies, and implemented Vite with Jest for efficient unit testing.",
+    skills: [
+      "ReactJS",
+      "Docker",
+      "Redux",
+      "NodeJs",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Odoo",
+      "Cloud Hosting",
+      "Sap"
+    ],
+    doc: "",
+  },
+  {
+    id: 1,
+    img: "https://scontent.fcmb6-1.fna.fbcdn.net/v/t39.30808-6/302077251_451540643695797_3979085567720776944_n.png?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=KXVWt3rKWSgAX-ddY6b&_nc_oc=AdgP3uNcEg7Dq9tFakVcED8EDBgt6bxMs0IapXSGd1haZk91k4ky6B-6UwLu2LOrgRw&_nc_zt=23&_nc_ht=scontent.fcmb6-1.fna&oh=00_AfCD8eUXd197xdlxEK1D0PhiLKNWEigMM_ybUn0KnQJawA&oe=6607E050",
+    role: "Trainee Software Developer",
+    company: "Levant Business Experts",
+    date: "Aug 2023 - Feb 2024",
     desc: "Enhanced user experiences for Odoo developer add-on buildings by addressing bugs and improving load times by 40%. Developed the Neurobit Analytics portal using React.js, ensuring smooth integration with REST APIs via AXIOS and optimizing performance with React Query. Refactored previous codebase to TypeScript, integrated new dependencies, and implemented Vite with Jest for efficient unit testing.",
     skills: [
       "ReactJS",
