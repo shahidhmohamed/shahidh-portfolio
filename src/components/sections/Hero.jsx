@@ -267,7 +267,7 @@ const Hero = () => {
             <HeroRightContainer>
               <div>
                 <Tilt>
-                  <Img src={HeroImg} alt="Rishav Chanda" />
+                  <Img src={HeroImg} alt="Mohamed Shahidh" />
                 </Tilt>
               </div>
             </HeroRightContainer>

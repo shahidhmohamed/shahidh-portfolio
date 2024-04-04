@@ -138,7 +138,7 @@ const Navbar = () => {
   const theme = useTheme();
   return (
     <Nav>
-      <Particle />
+      {/* <Particle /> */}
       <NavbarContainer>
         <NavLogo to="/">
           <ColorText>&lt;</ColorText>Mohamed

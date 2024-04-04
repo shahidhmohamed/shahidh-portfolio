@@ -275,7 +275,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://scontent.fcmb6-1.fna.fbcdn.net/v/t39.30808-6/302077251_451540643695797_3979085567720776944_n.png?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=KXVWt3rKWSgAX-ddY6b&_nc_oc=AdgP3uNcEg7Dq9tFakVcED8EDBgt6bxMs0IapXSGd1haZk91k4ky6B-6UwLu2LOrgRw&_nc_zt=23&_nc_ht=scontent.fcmb6-1.fna&oh=00_AfCD8eUXd197xdlxEK1D0PhiLKNWEigMM_ybUn0KnQJawA&oe=6607E050",
+    img: "/levant.png",
     role: "Junior Software Developer",
     company: "Levant Business Experts",
     date: "Feb 2024 - Present",
@@ -296,7 +296,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://scontent.fcmb6-1.fna.fbcdn.net/v/t39.30808-6/302077251_451540643695797_3979085567720776944_n.png?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=KXVWt3rKWSgAX-ddY6b&_nc_oc=AdgP3uNcEg7Dq9tFakVcED8EDBgt6bxMs0IapXSGd1haZk91k4ky6B-6UwLu2LOrgRw&_nc_zt=23&_nc_ht=scontent.fcmb6-1.fna&oh=00_AfCD8eUXd197xdlxEK1D0PhiLKNWEigMM_ybUn0KnQJawA&oe=6607E050",
+    img: "/levant.png",
     role: "Trainee Software Developer",
     company: "Levant Business Experts",
     date: "Aug 2023 - Feb 2024",
@@ -320,7 +320,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://th.bing.com/th/id/R.391fa1dea96ec13c07f6ac1123657906?rik=OFTzLWa1kmN4pw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-GZhRhCaWm40%2fVJJVDECf5bI%2fAAAAAAAAABE%2fzGoy3x2xI0Q%2fs1600%2fESOFT_Logo_1000_x_450_RGB.jpg&ehk=5Kam6l9oyTTGUA%2bA7gZO0GfA%2bQSSCUGTkr1nUt8geIY%3d&risl=&pid=ImgRaw&r=0",
+    img: "/esoft.png",
     school: "Esoft Metro Campus Colombo",
     date: "June 2023 - Dec 2023",
     desc: "I have completed an HND in Computing General at Esoft Metro Campus, Bambalapitiya. Throughout my program, I gained comprehensive knowledge and practical experience in various aspects of computing, including programming, database management, networking, and systems analysis. My education at Esoft Metro Campus has equipped me with a strong foundation in computer science and technology, preparing me for further academic pursuits and professional endeavors in the field.",
@@ -328,17 +328,17 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://scontent.fcmb6-1.fna.fbcdn.net/v/t39.30808-6/291652867_545367677286778_3543534413799852844_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=LQ9w1ID4hpMAX8JZ9Kr&_nc_zt=23&_nc_ht=scontent.fcmb6-1.fna&oh=00_AfBaG-rJrlkhYW7ALOD2Hy9wBH-Ttp8gg7T4fv-7uy_5_A&oe=6607CF8E",
+    img: "/al.jpeg",
     school: "Kochchikade Maha Vidyalaya",
     date: "Jan 2019 - Apr 2021",
     grade: "Faile",
     desc: "I studied up to grade 13 at Kochchikade Maha Vidyalaya, where I successfully completed my A/L examination. This educational journey provided me with a strong academic foundation and paved the way for my future studies. The supportive environment and dedicated teachers at Kochchikade Maha Vidyalaya played a crucial role in shaping my academic growth and fostering my enthusiasm for learning.",
     degree: "A/L",
   },
-  
+
   {
     id: 2,
-    img: "https://scontent.fcmb6-1.fna.fbcdn.net/v/t39.30808-6/291652867_545367677286778_3543534413799852844_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=LQ9w1ID4hpMAX8JZ9Kr&_nc_zt=23&_nc_ht=scontent.fcmb6-1.fna&oh=00_AfBaG-rJrlkhYW7ALOD2Hy9wBH-Ttp8gg7T4fv-7uy_5_A&oe=6607CF8E",
+    img: "/ol.jpeg",
     school: "St.Josheps Collage Negombo",
     date: "Jan 2006 - Dec 2017",
     grade: "",
@@ -355,7 +355,7 @@ export const projects = [
     description:
       " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
     image:
-      "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+      "/todo.png",
     tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
     category: "web app",
     github: "https://github.com/shahidhmohamed/todolist",
@@ -367,10 +367,22 @@ export const projects = [
     description:
       "Language Translator",
     image:
-      "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+      "/trans.png",
     tags: ["Next Js", "vercel", "Python", "Node JS"],
     category: "web app",
     github: "https://github.com/shahidhmohamed/translator-next-app",
+  },
+  {
+    id: 8,
+    title: "Uber Clone Web App",
+    date: "Mar 2024",
+    description:
+      "Uber Clone Web App",
+    image:
+      "/uber.png",
+    tags: ["vercel", "Js", "Node JS", "Api"],
+    category: "web app",
+    github: "https://github.com/shahidhmohamed/uber-clone-next",
   },
 ];
 

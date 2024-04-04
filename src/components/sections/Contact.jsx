@@ -126,27 +126,27 @@ const ContactButton = styled.input`
 `;
 
 const Contact = () => {
-  const form = useRef();
+  const formRef = useRef(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
-        form.current,
-        "SybVGsYS52j2TfLbi"
+        "service_fah08cd",
+        "template_3chyc2h",
+        formRef.current,
+        "xbFn5id8sF09wtwWm"
       )
       .then(
         (result) => {
           alert("Message Sent");
-          form.current.resut();
+          formRef.current.reset();
         },
         (error) => {
           alert(error);
-        }
-      );
-  };
+       }
+       );
+};
 
   return (
     <Container>
@@ -156,7 +156,7 @@ const Contact = () => {
         <Desc>
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm onSubmit={handleSubmit}>
+        <ContactForm ref={formRef} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
@@ -168,5 +168,6 @@ const Contact = () => {
     </Container>
   );
 };
+
 
 export default Contact;
