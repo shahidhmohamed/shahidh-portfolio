@@ -9,7 +9,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/shahidhmohamed",
   resume:
-    "",
+    "https://drive.google.com/file/d/1P8zKgRqj0TnIDj0d3ogAUzG62d9etAR2/view?usp=drive_link",
   twitter: "",
   insta: "https://www.instagram.com/mohamed__shahidh?igsh=YTQwZjQ0NmI0OA==",
   facebook: "https://www.facebook.com/shahidh.shahid.35?mibextid=LQQJ4d",
@@ -356,9 +356,10 @@ export const projects = [
       " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
     image:
       "/todo.png",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS", "Tailwind css"],
     category: "web app",
     github: "https://github.com/shahidhmohamed/todolist",
+    webapp: "https://todolist-murex-sigma.vercel.app/"
   },
   {
     id: 6,
@@ -368,9 +369,10 @@ export const projects = [
       "Language Translator",
     image:
       "/trans.png",
-    tags: ["Next Js", "vercel", "Python", "Node JS"],
+    tags: ["Next Js", "vercel", "Python", "Node JS", "Tailwind css"],
     category: "web app",
     github: "https://github.com/shahidhmohamed/translator-next-app",
+    webapp: "https://translator-next-app.vercel.app/"
   },
   {
     id: 8,
@@ -380,9 +382,34 @@ export const projects = [
       "Uber Clone Web App",
     image:
       "/uber.png",
-    tags: ["vercel", "Js", "Node JS", "Api"],
+    tags: ["vercel", "Js", "Node JS", "Api", "Tailwind css"],
     category: "web app",
     github: "https://github.com/shahidhmohamed/uber-clone-next",
+    webapp: "https://uber-clone-next-nu.vercel.app/"
+  },
+  {
+    id: 6,
+    title: "Portfolio",
+    date: "Feb 2024",
+    description:
+      "Portfolio",
+    image:
+      "/portfolio.png",
+    tags: ["Next Js", "vercel", "Js", "Tailwind css"],
+    category: "web app",
+    github: "https://github.com/shahidhmohamed/shahidh-portfolio",
+  },
+  {
+    id: 6,
+    title: "Test Portfolio",
+    date: "Feb 2024",
+    description:
+      "Portfolio",
+    image:
+      "/portfolio_old.png",
+    tags: ["Next Js", "vercel", "Js", "Tailwind css", "Type Script"],
+    category: "web app",
+    github: "https://github.com/shahidhmohamed/my-portfolio-1",
   },
 ];
 

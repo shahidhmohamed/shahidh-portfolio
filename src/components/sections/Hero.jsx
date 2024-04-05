@@ -134,59 +134,20 @@ const ResumeButton = styled.a`
   max-width: 300px;
   text-align: center;
   padding: 16px 0;
-
-  background: hsl(54, 100%, 50%);
-  background: linear-gradient(
-    225deg,
-    hsla(54, 100%, 50%) 0%,
-    hsla(54, 100%, 50%) 100%
-  );
-  background: -moz-linear-gradient(
-    225deg,
-    hsla(54, 100%, 50%) 0%,
-    hsla(54, 100%, 50%) 100%
-  );
-  background: -webkit-linear-gradient(
-    225deg,
-    hsla(54, 100%, 50%) 0%,
-    hsla(54, 100%, 50%) 100%
-  );
+  border: 1px solid ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.primary};
   border-radius: 50px;
   font-weight: 600;
   font-size: 20px;
-  color: black;
-
-     &:hover {
-        transform: scale(1.05);
-        color: black;
-    transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
-    filter: brightness(1);
-    background: hsl(54, 100%, 50%);
-  background: linear-gradient(
-    225deg,
-    hsla(0, 100%, 100%) 0%,
-    hsla(0, 100%, 100%) 100%
-  );
-  background: -moz-linear-gradient(
-    225deg,
-    hsla(0, 100%, 100%) 0%,
-    hsla(0, 100%, 100%) 100%
-  );
-  background: -webkit-linear-gradient(
-    225deg,
-    hsla(0, 100%, 100%) 0%,
-    hsla(0, 100%, 100%) 100%
-  );
-    
-    }    
-    
-    
-    @media (max-width: 640px) {
-        padding: 12px 0;
-        font-size: 18px;
-    } 
-    color: white;
+  transition: all 0.6s ease-in-out;
+  &:hover {
+    background: ${({ theme }) => theme.primary};
+    color: black;
+  }
+  @media (max-width: 640px) {
+    padding: 12px 0;
+    font-size: 18px;
+  }
 `;
 
 const Img = styled.img`
