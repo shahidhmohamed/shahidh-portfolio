@@ -9,7 +9,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/shahidhmohamed",
   resume:
-    "https://drive.google.com/file/d/1CM0lX0dwqVMpjD31MEi1bQ_qqubKhFRq/view?usp=sharing",
+    "https://drive.google.com/file/d/13PwkUSD0_GT7w1wl9acRitVPtztDIv8y/view?usp=sharing",
   twitter: "",
   insta: "https://www.instagram.com/mohamed__shahidh?igsh=YTQwZjQ0NmI0OA==",
   facebook: "https://www.facebook.com/shahidh.shahid.35?mibextid=LQQJ4d",
