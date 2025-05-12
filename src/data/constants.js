@@ -1,10 +1,6 @@
 export const Bio = {
   name: "Mohamed Shahidh",
-  roles: [
-    "Full Stack Developer",
-    "Odoo Developer",
-    "Software Engineer",
-  ],
+  roles: ["Full Stack Developer", "Odoo Developer", "Software Engineer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/shahidhmohamed",
@@ -19,54 +15,58 @@ export const skills = [
   {
     title: "Frontend",
     skills: [
-      {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
       // {
-      //   name: "Redux",
+      //   name: "React Js",
       //   image:
-      //     "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+      //     "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       // },
-      {
-        name: "Next Js",
-        image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
-      },
       // {
-      //   name: "Angular Js",
+      //   name: "Next Js",
       //   image:
-      //     "https://camo.githubusercontent.com/8886130b3d8aba95dbdd7c4f9a41029606424cc06d1873c1ced87dd55a222fef/68747470733a2f2f616e67756c61722e696f2f6173736574732f696d616765732f6c6f676f732f616e67756c61722f616e67756c61722e737667",
+      //     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
       // },
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
       {
-        name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        name: "XML",
+        image: "https://www.svgrepo.com/show/31053/xml.svg",
       },
       {
-        name: "JavaScript",
+        name: "Tailwind CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
       },
+      {
+        name: "Angular",
+        image: "https://angular.io/assets/images/logos/angular/angular.svg",
+      },
+      {
+        name: "TypeScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+      },
+      {
+        name: "Flutter",
+        image:
+          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+      },
+
       // {
-      //   name: "Bootstrap",
+      //   name: "CSS",
       //   image:
-      //     "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       // },
-      {
-        name: "Material UI",
-        image:
-          "data:image/png;base64,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",
-      },
       // {
-      //   name: "Flutter",
+      //   name: "JavaScript",
       //   image:
-      //     "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      // },
+      // {
+      //   name: "Material UI",
+      //   image:
+      //     "data:image/png;base64,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",
       // },
     ],
   },
@@ -101,24 +101,29 @@ export const skills = [
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlFFyY16N5NRhzoG24RqB7x8Ok2t8Bdgs-tuMsOBXS2Q&s",
       },
-      {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
+      // {
+      //   name: "MySQL",
+      //   image:
+      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      // },
       {
         name: "Postgresql",
         image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+      },
+      {
+        name: "Spring Boot",
+        image:
+          "https://e7.pngegg.com/pngimages/931/804/png-clipart-spring-framework-software-framework-java-application-framework-web-framework-java-leaf-text-thumbnail.png",
       },
       {
         name: "MongoDB",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
-      // {
-      //   name: "Firebase",
-      //   image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      // },
+      {
+        name: "Firebase",
+        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      },
     ],
   },
   {
@@ -129,10 +134,15 @@ export const skills = [
       //   image:
       //     "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
       // },
+      // {
+      //   name: "Google Cloud",
+      //   image:
+      //     "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
+      // },
       {
-        name: "Google Cloud",
+        name: "Azure",
         image:
-          "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
+          "https://banner2.cleanpng.com/20180802/wxy/kisspng-microsoft-azure-cloud-computing-microsoft-corporat-pricing-insight-amp-analytics-microsoft-azure-5b62c6dd915251.7076960515332000935953.jpg",
       },
       {
         name: "Docker",
@@ -165,36 +175,41 @@ export const skills = [
       // },
     ],
   },
-  // {
-  //   title: "Android",
-  //   skills: [
-  //     {
-  //       name: "Java",
-  //       image:
-  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-  //     },
-  //     {
-  //       name: "Kotlin",
-  //       image:
-  //         "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-  //     },
-  //     {
-  //       name: "Jetpack Compose",
-  //       image:
-  //         "https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png",
-  //     },
-  //     {
-  //       name: "XML",
-  //       image:
-  //         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-  //     },
-  //     {
-  //       name: "Android Studio",
-  //       image:
-  //         "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-  //     },
-  //   ],
-  // },
+  {
+    title: "Android",
+    skills: [
+      {
+        name: "Java",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+      },
+      {
+        name: "Flutter",
+        image:
+          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+      },
+      // {
+      //   name: "Kotlin",
+      //   image:
+      //     "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+      // },
+      // {
+      //   name: "Jetpack Compose",
+      //   image:
+      //     "https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png",
+      // },
+      // {
+      //   name: "XML",
+      //   image:
+      //     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+      // },
+      {
+        name: "Android Studio",
+        image:
+          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+      },
+    ],
+  },
   {
     title: "Machine Learning",
     skills: [
@@ -258,11 +273,11 @@ export const skills = [
         image:
           "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
       },
-      {
-        name: "Adobe XD",
-        image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
-      },
+      // {
+      //   name: "Adobe XD",
+      //   image:
+      //     "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+      // },
       {
         name: "Figma",
         image:
@@ -275,10 +290,39 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://media.licdn.com/dms/image/v2/C560BAQHXSz4rzUs_lg/company-logo_200_200/company-logo_200_200/0/1630649255010/heavenscode_logo?e=2147483647&v=beta&t=vvEcQ8zxkCmNU618pICa515cizmhh1ykbBrkVGcqeNU",
+    role: "Software Developer",
+    company: "Heaven's Code",
+    date: "Nov 2024 - Present",
+    desc: "Contributed to full stack development tasks including UI design, API integration, and backend logic. Built responsive Angular components with Tailwind CSS, handled PostgreSQL schema design, and used JHipster to streamline backend development. Also participated in Flutter-based mobile application development using Dart, ensuring cross-platform compatibility and efficient performance.",
+    skills: [
+      "Full Stack Development",
+      "Angular",
+      "PostgreSQL",
+      "JHipster",
+      "Tailwind CSS",
+      "Flutter",
+      "Dart",
+      "Mobile Development",
+      "Java",
+      "Spring Boot",
+      "REST APIs",
+      "Microservices",
+      "Git",
+      "GitHub",
+      "Docker",
+      "CI/CD",
+      "Agile",
+    ],
+    doc: "",
+  },
+
+  {
+    id: 0,
     img: "/levant.png",
     role: "Junior Software Developer",
     company: "Levant Business Experts",
-    date: "Feb 2024 - Present",
+    date: "Feb 2024 - Nov 2024",
     desc: "Enhanced user experiences for Odoo developer add-on buildings by addressing bugs and improving load times by 40%. Developed the Neurobit Analytics portal using React.js, ensuring smooth integration with REST APIs via AXIOS and optimizing performance with React Query. Refactored previous codebase to TypeScript, integrated new dependencies, and implemented Vite with Jest for efficient unit testing.",
     skills: [
       "ReactJS",
@@ -290,7 +334,7 @@ export const experiences = [
       "JavaScript",
       "Odoo",
       "Cloud Hosting",
-      "Sap"
+      "Sap",
     ],
     doc: "",
   },
@@ -311,10 +355,10 @@ export const experiences = [
       "JavaScript",
       "Odoo",
       "Cloud Hosting",
-      "Sap"
+      "Sap",
     ],
     doc: "",
-  }
+  },
 ];
 
 export const education = [
@@ -367,85 +411,190 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Encrypt/Decrypt Tool",
+    title: "Smart City Chat Mate",
     description:
-      "A web app built with React JS, Node JS, and Tailwind CSS, allowing users to securely encrypt and decrypt text. The tool provides an intuitive user interface where users can input text, select encryption methods, and generate encrypted results. It also offers decryption functionality for previously encrypted data. The app emphasizes security and ease of use, making it ideal for those needing quick and reliable encryption solutions.",
-    image:
-      "/encrypt.png",
-    tags: ["React Js", "Vercel", "Node JS", "Tailwind css"],
+      "An AI-powered civic assistant web app designed to help citizens interact with smart city services efficiently. Built with Angular and Tailwind CSS for an intuitive frontend, and Spring Boot with Python microservices for robust backend architecture. It integrates Groq Cloud Console, LangChain, and Hugging Face NLP models to understand user queries, uses Pinecone for vector search with embeddings, and stores contextual data in MongoDB and Redis. Real-time communication is enabled through WebRTC, and LLaMA is leveraged for local LLM processing—making it a fully functional chatbot with document indexing, API access, and real-time civic assistance.",
+    image: "/smartCity.png",
+    tags: [
+      "Angular",
+      "Tailwind CSS",
+      "TypeScript",
+      "Spring Boot",
+      "Groq Cloud Console",
+      "API",
+      "Microservices",
+      "Pinecone",
+      "Redis",
+      "Hugging Face",
+      "embeddings",
+      "Python",
+      "MongoDB",
+      "llama",
+      "WebRTC",
+      "Flask",
+      "LangChain",
+      "NLP",
+    ],
     category: "web app",
-    github: "https://github.com/shahidhmohamed/EncryptApp",
-    webapp: "https://encrypt-app-three.vercel.app/"
+    github: "https://github.com/shahidhmohamed/AuraSkinCare.git",
+    webapp: "",
+  },
+  {
+    id: 0,
+    title: "Smart Campus Management System",
+    description:
+      "A role-based web application designed to streamline and digitalize campus operations. Built with Angular, Tailwind CSS, and Spring Boot, the system provides differentiated access for students, lecturers, and administrators. Students can view timetables, attendance records, and apply for leaves. Lecturers can mark attendance, upload course materials, and manage schedules. Administrators oversee user management, department configurations, and centralized reporting. The backend is powered by MongoDB for flexible data storage, and the interface is responsive across devices. Features include real-time notifications, attendance tracking, lecture scheduling, leave approval workflows, and secure role-based access.",
+    image: "/smcs.png",
+    tags: ["Angular", "Tailwind CSS", "TypeScript", "Spring Boot", "MongoDB"],
+    category: "web app",
+    github:
+      "https://smart-campus-managment-system-front-end.vercel.app/sign-in",
+    webapp: "",
+  },
+  {
+    id: 0,
+    title: "Appointment Booking System & Management System",
+    description:
+      "A comprehensive appointment scheduling and management platform developed using Angular, Tailwind CSS, and Spring Boot. Designed to streamline client bookings, the system enables users to schedule, update, and manage appointments in real time. With MongoDB as the database, it provides robust data handling, while the responsive UI ensures accessibility across devices. This system is ideal for service-based businesses such as salons, clinics, and consultancies—featuring calendar views, booking status tracking, and admin management capabilities.",
+    image: "/appointment.png",
+    tags: ["Angular", "Tailwind CSS", "TypeScript", "Spring Boot", "MongoDB"],
+    category: "web app",
+    github: "https://github.com/shahidhmohamed/AuraSkinCare.git",
+    webapp: "",
+  },
+  {
+    id: 0,
+    title: "POS System with Inventory Management",
+    description:
+      "A robust Point of Sale (POS) and inventory management system developed using Angular with the Fuse template and Tailwind CSS for a sleek, responsive UI. The backend is powered by Spring Boot and JHipster, enabling secure and scalable architecture. The system supports multi-branch inventory tracking, real-time stock transfers, sales processing, and staff access control. Designed for efficiency and reliability, it streamlines retail operations from product management to transaction reporting.",
+    image: "/pos.png",
+    tags: [
+      "Angular",
+      "Fuse",
+      "Tailwind CSS",
+      "TypeScript",
+      "Spring Boot",
+      "JHipster",
+      "PostgreSQL",
+      "API",
+      "Microservices",
+    ],
+    category: "web app",
+    github: "https://github.com/shahidhmohamed",
+    webapp: "https://shm.35.lk/apps/ecommerce/pos",
   },
   {
     id: 1,
-    title: "Form Builder Tool",
+    title: "Travel App",
     description:
-      "A dynamic web app built with React JS, Node JS, and Tailwind CSS that allows users to create custom forms with ease. Users can add, edit, and rearrange form fields through an intuitive drag-and-drop interface. The app also includes features for form validation, customization, and real-time preview, making it a powerful tool for quickly designing and managing forms for various use cases.",
-    image:
-      "/formbuilder.png",
-    tags: ["React Js", "Vercel", "Node JS", "Tailwind css"],
-    category: "web app",
-    github: "https://github.com/shahidhmohamed/form_tool",
-    webapp: "https://form-tool.vercel.app/"
+      "WanderWise is a smart travel companion app built with Flutter that helps users plan and manage their trips efficiently. Users can view popular travel destinations, get real-time navigation paths, and create customized trip plans. The app allows saving trip details locally with offline support using SQLite. It also features location-based services to find nearby ATMs, hospitals, restaurants, and other essentials—all integrated with Firebase for real-time updates and seamless user experience.",
+    image: "/wanderwise.jpg",
+    tags: [
+      "Flutter",
+      "Firebase",
+      "SQLite",
+      "Mobile",
+      "Offline Storage",
+      "Location Services",
+    ],
+    category: "android app",
+    github: "https://github.com/shahidhmohamed/wanderwise.git",
+    webapp: "",
   },
   {
     id: 2,
-    title: "Todo Web App",
+    title: "News App",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "/todo.png",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS", "Tailwind css"],
-    category: "web app",
-    github: "https://github.com/shahidhmohamed/todolist",
-    webapp: "https://todolist-murex-sigma.vercel.app/"
+      "A feature-rich news application built with Flutter that delivers real-time news updates using Firebase and supports offline reading with SQLite. Users can browse the latest headlines, view detailed articles, and save their favorite content for offline access. The app features a smooth user interface, fast performance, and category-based filtering for a personalized experience.",
+    image: "/newsapp.jpg",
+    tags: ["Flutter", "Fire Base", "SQLite", "Mobile", "Offline Storage"],
+    category: "android app",
+    github: "https://github.com/shahidhmohamed/newsFusion.git",
+    webapp: "",
   },
   {
-    id: 3,
-    title: "Translator next-app",
+    id: 2,
+    title: "Note App",
     description:
-      "Language Translator",
-    image:
-      "/trans.png",
-    tags: ["Next Js", "vercel", "Python", "Node JS", "Tailwind css"],
+      "A clean and lightweight note-taking app built using Flutter. It allows users to create, update, delete, and persist notes locally using SQLite. Designed with a minimalistic UI for smooth offline usage, it’s perfect for quick daily memos or task tracking. Implements local state management and intuitive navigation for a seamless user experience.",
+    image: "/Home_Page.png",
+    tags: ["Flutter", "SQLite", "Mobile", "Offline Storage"],
+    category: "android app",
+    github: "https://github.com/shahidhmohamed/MySimpleNote.git",
+    webapp: "",
+  },
+
+  {
+    id: 3,
+    title: "Encrypt/Decrypt Tool",
+    description:
+      "A web app built with React JS, Node JS, and Tailwind CSS, allowing users to securely encrypt and decrypt text. The tool provides an intuitive user interface where users can input text, select encryption methods, and generate encrypted results. It also offers decryption functionality for previously encrypted data. The app emphasizes security and ease of use, making it ideal for those needing quick and reliable encryption solutions.",
+    image: "/encrypt.png",
+    tags: ["React Js", "Vercel", "Node JS", "Tailwind css"],
     category: "web app",
-    github: "https://github.com/shahidhmohamed/translator-next-app",
-    webapp: "https://translator-next-app.vercel.app/"
+    github: "https://github.com/shahidhmohamed/EncryptApp",
+    webapp: "https://encrypt-app-three.vercel.app/",
   },
   {
     id: 4,
-    title: "Uber Clone Web App",
+    title: "Form Builder Tool",
     description:
-      "Uber Clone Web App",
-    image:
-      "/uber.png",
-    tags: ["vercel", "Js", "Node JS", "Api", "Tailwind css"],
+      "A dynamic web app built with React JS, Node JS, and Tailwind CSS that allows users to create custom forms with ease. Users can add, edit, and rearrange form fields through an intuitive drag-and-drop interface. The app also includes features for form validation, customization, and real-time preview, making it a powerful tool for quickly designing and managing forms for various use cases.",
+    image: "/formbuilder.png",
+    tags: ["React Js", "Vercel", "Node JS", "Tailwind css"],
     category: "web app",
-    github: "https://github.com/shahidhmohamed/uber-clone-next",
-    webapp: "https://uber-clone-next-nu.vercel.app/"
+    github: "https://github.com/shahidhmohamed/form_tool",
+    webapp: "https://form-tool.vercel.app/",
   },
   {
     id: 5,
-    title: "Portfolio",
+    title: "Todo Web App",
     description:
-      "Portfolio",
-    image:
-      "/portfolio.png",
-    tags: ["Next Js", "vercel", "Js", "Tailwind css"],
+      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+    image: "/todo.png",
+    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS", "Tailwind css"],
     category: "web app",
-    github: "https://github.com/shahidhmohamed/shahidh-portfolio",
-    webapp: "https://shahidh-portfolio.vercel.app/"
+    github: "https://github.com/shahidhmohamed/todolist",
+    webapp: "https://todolist-murex-sigma.vercel.app/",
   },
   {
     id: 6,
+    title: "Translator next-app",
+    description: "Language Translator",
+    image: "/trans.png",
+    tags: ["Next Js", "vercel", "Python", "Node JS", "Tailwind css"],
+    category: "web app",
+    github: "https://github.com/shahidhmohamed/translator-next-app",
+    webapp: "https://translator-next-app.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "Uber Clone Web App",
+    description: "Uber Clone Web App",
+    image: "/uber.png",
+    tags: ["vercel", "Js", "Node JS", "Api", "Tailwind css"],
+    category: "web app",
+    github: "https://github.com/shahidhmohamed/uber-clone-next",
+    webapp: "https://uber-clone-next-nu.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "Portfolio",
+    description: "Portfolio",
+    image: "/portfolio.png",
+    tags: ["Next Js", "vercel", "Js", "Tailwind css"],
+    category: "web app",
+    github: "https://github.com/shahidhmohamed/shahidh-portfolio",
+    webapp: "https://shahidh-portfolio.vercel.app/",
+  },
+  {
+    id: 9,
     title: "Personal Data Store",
     description:
       "A full-stack portfolio web app built with Next.js, MongoDB, and Tailwind CSS. This project serves as a personal data store, allowing users to securely manage and showcase their professional profiles and projects. The app includes a dynamic backend with MongoDB for efficient data storage, and a clean, responsive frontend designed for seamless user experience.",
     image: "/FormMongo.jpg",
     tags: ["Next.js", "Vercel", "JavaScript", "Tailwind CSS", "MongoDB"],
     category: "web app",
-    github: "https://github.com/shahidhmohamed/personal_data_store"
+    github: "https://github.com/shahidhmohamed/personal_data_store",
   },
 ];
-
