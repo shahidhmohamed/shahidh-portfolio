@@ -132,7 +132,7 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_fah08cd",
+        "service_q67gw5j",
         "template_3chyc2h",
         formRef.current,
         "xbFn5id8sF09wtwWm"
@@ -144,9 +144,9 @@ const Contact = () => {
         },
         (error) => {
           alert(error);
-       }
-       );
-};
+        }
+      );
+  };
 
   return (
     <Container>
@@ -168,6 +168,5 @@ const Contact = () => {
     </Container>
   );
 };
-
 
 export default Contact;
